@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #282c34;
+  color: white;
+ }
+ 
+ .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+ }
+ 
+ @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+ }
+ 
+ @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+ }
+ 
+ .usr, .name {
+  width: 30%; /* Full width */
+  padding: 12px 20px; /* Some padding */
+  margin: 8px 0; /* Add a margin */
+  box-sizing: border-box; /* Make sure that padding and width stays inside the box */
+  border: none; /* Remove default border */
+  background-color: #f1f1f1; /* Gray background color */
+  font-size: 16px; /* Increase font size */
+ }
+ 
+ /* Add a focus effect */
+ .usr:focus, .name:focus {
+  background-color: #ddd; /* Light grey background */
+  outline: none; /* No outline */
+ }
+ 
+ button {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #61dafb;
+  font-size: 16px;
+  cursor: pointer;
+ }
+ 
+ button:hover {
+  background-color: #4CAF50;
+ }
+ 
